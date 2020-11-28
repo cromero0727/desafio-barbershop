@@ -1,0 +1,30 @@
+.main {
+    background-image: url(/assets/images/post-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: $white;
+    display: flex;
+    align-items: center;
+}
+
+.main__container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.main__titulo {
+    font-family: $playfair;
+    font-weight: $regular;
+    font-size: $xx-large;
+    font-style: italic;
+}
+
+.main__flecha {
+    margin-top: 200px;
+    justify-content: center;
+    text-align: center;
+    color: $white;
+    font-size: 2rem;
+}

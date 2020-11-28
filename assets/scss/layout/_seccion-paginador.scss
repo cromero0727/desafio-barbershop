@@ -1,0 +1,41 @@
+.seccion-paginador {
+    height: 134px;
+    background-color: $platinum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-paginador .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-paginador {
+    border-radius: 20px;
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.page-link {
+    font-family: $roboto;
+    font-size: $medium;
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: $Eerie-black;
+    background-color: #FFF;
+    border: 1px solid $platinum;
+}

@@ -1,20 +1,31 @@
 .header {
     margin: 0px;
     background-color: $Eerie-black;
-    height: 80px;
     font-family: $roboto;
     font-size: $medium;
     font-weight: 400;
 }
 
-.navigation_lista {
-    list-style: none;
-    color: $white;
-    margin-right: 150px;
+.header__img-logo {
+    width: 40%;
+    margin-left: 130px;
 }
 
-.navigation_item {
+.navbar-nav {
+    margin-right: 180px;
+}
+
+.nav-link {
     // display: inline;
+    color: $white;
     float: right;
     margin-right: 1.5rem;
+}
+
+// MEDIA QUERYS
+@media (max-width: 575.98px) {
+    .header__img-logo {
+        width: 30%;
+        margin-left: 0px;
+    }
 }

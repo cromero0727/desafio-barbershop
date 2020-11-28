@@ -1,16 +1,20 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: $roboto;
+.main__titulo {
+    font-family: $playfair;
     font-weight: $regular;
-    font-size: $large;
+    font-size: $xx-large;
+    font-style: italic;
 }
 
 .parrafo-general {
     font-family: $roboto;
-    font-weight: $light;
+    font-weight: $lijera;
     font-size: $medium;
+    line-height: 45px;
+}
+
+.texto-fechas {
+    font-family: $playfair;
+    font-weight: $regular;
+    font-size: $medium;
+    line-height: 45px;
 }

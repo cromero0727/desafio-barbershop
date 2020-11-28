@@ -1,0 +1,51 @@
+.naomi {
+    border-top: solid 1px;
+    border-color: $gray;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.naomi__image {
+    background-image: url(/assets/images/naomi-thai.png);
+    background-size: cover;
+    border-radius: 50%;
+    width: 177px;
+    height: 180px;
+    margin-right: 30px;
+}
+
+.naomi__titulo-nombre {
+    padding-top: 20px;
+    font-family: $playfair;
+    font-size: $x-large;
+    font-style: $ital;
+    font-weight: $bi;
+}
+
+.parrafo-general {
+    padding-top: 20px;
+    font-family: $roboto;
+    font-weight: $lijera;
+    font-size: $medium;
+    line-height: 45px;
+}
+
+.naomi__lista-contacto,
+.naomi__lista-contacto a {
+    padding-top: 20px;
+    list-style: none;
+    color: $Spanish-pink;
+}
+
+// MEDIA QUERYS
+@media (max-width: 575.98px) {
+    .naomi__image,
+    .naomi__titulo-nombre,
+    .naomi__lista-contacto {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
