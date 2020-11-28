@@ -1,55 +1,20 @@
-/*  
-ESQUEMAS DE COLORES 
-PRIMER ESQUEMA DE COLOR 
-*/
-/*
+/* Error: $color2: 300 is not a color.
+ *     ,
+ * 106 |   @return mix($color-base, $color, $level * $theme-color-interval);
+ *     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *     '
+ *   assets/scss/vendors/bootstrap-4.5/_functions.scss 106:11  theme-color-level()
+ *   assets/scss/vendors/bootstrap-4.5/_tables.scss 101:38     @import
+ *   assets/scss/vendors/bootstrap-4.5/bootstrap.scss 17:9     @import
+ *   assets/scss/main.scss 12:9                                root stylesheet */
 
-// FONT FAMILY*/
-/* 
-FONT SIZES */
-/* FONT WEIGHT
-*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Roboto", serif;
-  font-weight: 400;
-  font-size: 18px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: $color2: 300 is not a color.\a     \2577 \a 106 \2502    @return mix($color-base, $color, $level * $theme-color-interval);\a     \2502            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a     \2575 \a   assets/scss/vendors/bootstrap-4.5/_functions.scss 106:11  theme-color-level()\a   assets/scss/vendors/bootstrap-4.5/_tables.scss 101:38     @import\a   assets/scss/vendors/bootstrap-4.5/bootstrap.scss 17:9     @import\a   assets/scss/main.scss 12:9                                root stylesheet";
 }
-
-.parrafo-general {
-  font-family: "Roboto", serif;
-  font-weight: 300;
-  font-size: 16px;
-}
-
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-.header {
-  margin: 0px;
-  background-color: #121619;
-  height: 80px;
-  font-family: "Roboto", serif;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.navigation_lista {
-  list-style: none;
-  color: #FFF;
-  margin-right: 150px;
-}
-
-.navigation_item {
-  display: inline;
-  float: right;
-  margin-right: 1.5rem;
-}
-
-/*# sourceMappingURL=style.css.map */
